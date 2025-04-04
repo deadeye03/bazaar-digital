@@ -11,6 +11,22 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Bazaar Digital",
   description: "Bazaar Digital is a leading digital marketing agency specializing in website development and social media marketing services.",
+  keywords: [
+    'Bazaar Digital',
+    'Software Solutions',
+    'Bihar software house',
+    'Bihar website developer',
+    'Bihar web developer',
+    'Bihar Digital Marketing',
+    'Bihar SEO',
+    'Bihar Social Media Marketing',
+    'Bihar Digital Marketing Agency',
+    'Bihar Social Media Marketing Agency',
+    'Bihar Search Engine Optimization',
+  ],
+  icons: {
+    icon: "/logo.jpg",
+  },
 };
 
 export default function RootLayout({
