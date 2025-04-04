@@ -15,7 +15,7 @@ export default function About() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: "easeOut" }}
             className=' px-4 md:px-12  py-12 md:py-20 overflow-hidden'
-            id='about'
+            id='about-me'
         >
             <div className='grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-8 md:gap-12 overflow-hidden'>
                 <motion.div
@@ -40,9 +40,9 @@ export default function About() {
                     transition={{ duration: 0.3, ease: "easeOut", }}
                     className='grid  grid-cols-1 md:grid-cols-2 gap-4 w-full'>
                     {AboutUsCards.map((card, index) => (
-                        <Card key={index} className='mb-4'>
+                        <Card key={index} className='mb-4 bg-transparent'>
                             <CardHeader>
-                                <CardTitle className='flex items-center gap-4 text-xl'>
+                                <CardTitle className='flex items-center gap-4 text-xl text-white'>
                                     <div className='bg-[#48C89C] p-3 rounded-xl w-max'>
                                         <card.icon className='h-6 w-6 text-white' />
                                     </div>
