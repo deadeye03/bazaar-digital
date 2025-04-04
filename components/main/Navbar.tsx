@@ -11,16 +11,16 @@ const Navbar = () => {
           className="h-auto w-auto flex flex-row items-center"
         >
           <Image
-            src="/NavLogo.png"
+            src="/logo.png"
             alt="logo"
             width={70}
             height={70}
             className="cursor-pointer hover:animate-slowspin"
           />
 
-          <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            WebChain Dev
-          </span>
+          <h1 className="font-bold ml-[10px] hidden md:block bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent text-xl ">
+            Bazaar Digital
+          </h1>
         </a>
 
         <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
